@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+   
+    padding: 10px 20px;
+    
+}
+
+body {
+    text-align: center;
+    
+}
+
+form {
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+#logo img {
+    max-height: 80px;
+    
+}
+
+table {
+    margin: 20px auto;
+   
+    border-collapse: collapse;
+    
+}
+
+th,
+td {
+    padding: 15px;
+    
+    border: 1px solid black;
+    
+    font-size: 1.2em;
+    
+}
+
+
+td {
+    text-align: center;
+    
+}
+
+#Emma {
+    display: flex;
+    
+    align-items: center;
+    
+}
