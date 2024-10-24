@@ -8,13 +8,20 @@ header {
     
 }
 
+#zogo{
+    width: 100px !important;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    height: auto;
+
+}
 body {
     text-align: center;
     
 }
 
 form {
-    display: flex;
     
     justify-content: center;
     
@@ -25,7 +32,7 @@ form {
     
 }
 
-table {
+#table1{
     margin: 20px auto;
    
     border-collapse: collapse;
