@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+}
+
+.input-box {
+    border: 1px solid #000;
+    padding: 10px; /* Reduced padding for a smaller box */
+    margin-right: 20px; /* Space between the input box and the sentence */
+    width: 600px; /* Set a fixed width for the input box */
+}
+
+.input-box label {
+    display: block;
+    margin-top: 5px; /* Reduced margin for labels */
+}
+
+.input-box input {
+    width: calc(100% - 10px); /* Adjust width to fit within padding */
+    padding: 5px;
+    margin-top: 3px; /* Reduced margin for inputs */
+}

@@ -3,7 +3,6 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: white;
-   
     padding: 10px 20px;
     
 }
@@ -60,4 +59,42 @@ td {
     
     align-items: center;
     
+}
+table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    textarea {
+        width: 100%; /* Makes the textarea fill the cell */
+        resize: none; /* Disables resizing */
+    }
+
+    .container {
+    display: flex;
+}
+
+.input-box {
+    border: 1px solid #000; /* Border for the rectangular shape */
+    padding: 10px; /* Padding inside the box */
+    margin-left: 20px; /* Space between the sentence and the box */
+    width: 700px; /* Set a fixed width for the input box */
+    height: 20px;
+}
+
+.Dep{
+    justify-content: left;
+    align-items: center;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
 }
