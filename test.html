@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Specifications Confirmation</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="test.css"> <!-- Link to the external CSS file -->
 </head>
 <body>
-    <div class="container">
-        <p>SPECIFICATIONS DEVELOPED AND CONFIRMED BY</p>
-        <div class="input-box">
-            <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="Enter Name">
-            <label for="sign">Sign:</label>
-            <input type="text" id="sign" placeholder="Enter Sign">
-            <label for="date">Date:</label>
-            <input type="text" id="date" placeholder="Enter Date">
-        </div>
+
+    <div id="BB">
+        <table border="2">
+            <caption>BUDGET PERIOD</caption>
+            <tr>
+                <th>YEAR:</th>
+                <td><input type="number" min="2024" max="2024"></td>
+                <th>MONTH:</th>
+                <td><input type="number" min="1" max="12"></td>
+            </tr>
+        </table>
     </div>
+
+    <div id="table3">
+        <table>
+            <Caption><b>COST CENTER</b></Caption>
+            <tr>
+                <th><b>COST CENTER:</b></th>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+    </div>
+
 </body>
 </html>

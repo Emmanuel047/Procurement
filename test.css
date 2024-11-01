@@ -1,28 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+    display: flex; /* Makes the body a flex container */
+    align-items: flex-start; /* Aligns items at the start of the container */
 }
 
-.container {
-    display: flex;
-    align-items: center; /* Align items vertically centered */
+div {
+    margin-right: 20px; /* Space between the divs */
 }
 
-.input-box {
-    border: 1px solid #000;
-    padding: 10px; /* Reduced padding for a smaller box */
-    margin-right: 20px; /* Space between the input box and the sentence */
-    width: 600px; /* Set a fixed width for the input box */
+table {
+    border-collapse: collapse; /* Merges cell borders */
+    margin: 0; /* Removes default margin */
 }
 
-.input-box label {
-    display: block;
-    margin-top: 5px; /* Reduced margin for labels */
-}
-
-.input-box input {
-    width: calc(100% - 10px); /* Adjust width to fit within padding */
-    padding: 5px;
-    margin-top: 3px; /* Reduced margin for inputs */
+th, td {
+    padding: 8px; /* Space inside cells */
+    border: 1px solid black; /* Border style */
 }
